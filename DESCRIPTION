@@ -22,4 +22,6 @@ Imports:
     tibble,
     tidyr,
     wx3
-Remotes: CarolusKwok/wx3
+Remotes: 
+    CarolusKwok/call
+    CarolusKwok/wx3
