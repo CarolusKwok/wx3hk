@@ -19,7 +19,7 @@
 #' @export
 #'
 #' @examples load_hk_rainDY()
-load_hk_rainDY = function(lan = "en",
+load_hk_rainDy = function(lan = "en",
                           list_fail = TRUE,
                           dir = getwd(),
                           attempt = 5L,

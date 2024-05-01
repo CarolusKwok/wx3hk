@@ -91,10 +91,10 @@ load_cn_radr_official = function(time = seq.POSIXt(from = wx3hk::hk_time(),
     dplyr::select(DIR, URL, Info)
 
   #Start to download
-  wx3::load_fileset(data = URL,
-                    attempt = attempt,
-                    worker = worker,
-                    threshold = 450000,
-                    list_fail = list_fail,
-                    title = "China RADAR Data (www.nmc.cn)")
+  wx3::load_file(data = URL,
+                 attempt = attempt,
+                 worker = worker,
+                 threshold = 450000,
+                 list_fail = list_fail,
+                 title = "China RADAR Data (www.nmc.cn)")
 }

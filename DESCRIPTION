@@ -1,6 +1,6 @@
 Package: wx3hk
 Title: Hong Kong-China-Macau Weather/ Meteorological Data collection
-Version: 1.0.0.0000
+Version: 1.0.1.0000
 Authors@R: 
     person("Carolus", "Kwok", , "u3564223@connect.hku.hk", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0002-8926-6096",
